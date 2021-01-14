@@ -44,6 +44,7 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
 
 *{
@@ -51,7 +52,64 @@ table {
 }
 
 body{
+    font-size: 10px;
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #212027;
+    color: #fff1e6;
    
 }
+
+header{
+    background-color: #494949;
+    height: 30vh;
+}
+
+h1{
+
+    color: #f22f08;
+    font-family: 'Fraunces', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    padding: 1vh 2vw;
+    
+
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav a{
+    
+    width: 2.5vw;
+    height: 2vh;
+    padding: 3vh 5vw 3vh 3vw;
+    border: 1px solid #fff1e6;
+    border-radius: 15%;
+    margin: 3vw;
+    background-color: #594346;
+    text-decoration: none;
+    text-align: center;
+    color: #fff1e6;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+nav :hover{
+    color: #ca4132;
+    background-color: #561e18;
+    border: 1px solid #ca4132;
+}
+
+.intro {
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 55vw;
+
+}
+
+
