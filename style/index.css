@@ -42,26 +42,28 @@ table {
 	border-spacing: 0;
 }
 
+
+/* POST RESET */
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
 
-*{
-    border: 1px solid black;
-}
+html{ font-size: 62.5%;}
 
 body{
     font-size: 10px;
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #212027;
     color: #fff1e6;
+    width: 100%;
    
 }
 
 header{
     background-color: #494949;
-    height: 30vh;
+    height: 25vh;
 }
 
 h1{
@@ -174,4 +176,21 @@ h5{
     font-size: 1.2rem;
     text-align: center;
     color: #f22f08;
+}
+
+/* Optional fix to my screen bump sizing */
+
+@media (max-width: 1270px){
+    
+}
+
+/* TABLET */
+@media (max-width: 800px){
+    
+}
+
+
+/* MOBILE  */
+@media (max-width: 500px){
+    
 }
